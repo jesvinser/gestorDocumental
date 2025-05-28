@@ -64,6 +64,22 @@ class TestPlantillaWord {
 			assertEquals(16, paragraphs.get(1).getRuns().get(0).getFontSize());
 
 		}
+		
+		@Test
+	    public void checkSubtitleFontSize() throws Exception {
+	        Path path = Paths.get("Quijote.docx");
+	        try (XWPFDocument document = new XWPFDocument(Files.newInputStream(path))) {
+	            List<XWPFParagraph> paragraphs = document.getParagraphs();
+	            int fontSize = paragraphs.get(1).getRuns().get(0).getFontSize();
+
+	            int expectedFontSize = 16;
+	            // Mensaje personalizado que muestra expected y actual
+	            String message = String.format("Expected font size: %d, but was: %d", expectedFontSize, fontSize);
+	            //System.out.println(message);
+
+	            assertEquals(expectedFontSize, fontSize, message);
+	        }
+	    }
 	}
 
 
