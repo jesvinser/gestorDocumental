@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "us.dit.fs.andguicam",
+    "module": "gestor-documental",
+    "version": "1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "gestor-documental-1.0-SNAPSHOT.jar",
+          "url": "gestor-documental-1.0-SNAPSHOT.jar",
+          "size": 2807,
+          "sha512": "b9193ad091074d5ae111136ee1404292d1e6ee3b9c1d69932b1abf85990cf7267a2f38ab5c1ce3507f52772db6de102e6ee57d1d615169c12dbe75f8eb0ad300",
+          "sha256": "6d6e632dd593968470838ee7e17a8fe6690258ed299c83926fa7f0811244386f",
+          "sha1": "cf9e433c90fce75cf4b1da1ccc147b18eba1bba2",
+          "md5": "421c05e5c9f31bd6e057aa4828569d4e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.poi",
+          "module": "poi-ooxml",
+          "version": {
+            "requires": "5.2.5"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-core",
+          "version": {
+            "requires": "2.23.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gestor-documental-1.0-SNAPSHOT.jar",
+          "url": "gestor-documental-1.0-SNAPSHOT.jar",
+          "size": 2807,
+          "sha512": "b9193ad091074d5ae111136ee1404292d1e6ee3b9c1d69932b1abf85990cf7267a2f38ab5c1ce3507f52772db6de102e6ee57d1d615169c12dbe75f8eb0ad300",
+          "sha256": "6d6e632dd593968470838ee7e17a8fe6690258ed299c83926fa7f0811244386f",
+          "sha1": "cf9e433c90fce75cf4b1da1ccc147b18eba1bba2",
+          "md5": "421c05e5c9f31bd6e057aa4828569d4e"
+        }
+      ]
+    }
+  ]
+}

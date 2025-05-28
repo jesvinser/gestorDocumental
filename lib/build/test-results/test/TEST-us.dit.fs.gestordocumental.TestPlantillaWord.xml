@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="us.dit.fs.gestordocumental.TestPlantillaWord" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-05-28T18:45:13.915Z" hostname="LAPTOP-NKGTBMI4" time="0.34">
+  <properties/>
+  <testcase name="whenParsingOutputDocument_thenCorrect()" classname="us.dit.fs.gestordocumental.TestPlantillaWord" time="0.295"/>
+  <testcase name="checkSubtitlesFontSize()" classname="us.dit.fs.gestordocumental.TestPlantillaWord" time="0.043"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
